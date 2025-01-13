@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>README</title>
+    Event Management
 </head>
 <body>
     <h2>How to Run Locally</h2>
     <pre>
         <code>
-            npm install
-            npx nodemon
+npm install
+npx nodemon
         </code>
     </pre>
 
     <h1>User Management APIs</h1>
-
-    <p>Used JWT for auth and redis for logout functionality.</p>
+    <p>Used JWT for authentication and Redis for logout functionality.</p>
 
     <h2>Screenshots</h2>
     <div>
         <h4>User Register</h4>
-        <img src="./public/register.png" alt="User List Page" width="600" />
+        <img src="./public/register.png" alt="User Registration Page" width="600" />
 
-        <h4>User login</h4>
-        <img src="./public/login.png" alt="User Profile Page" width="600" />
+        <h4>User Login</h4>
+        <img src="./public/login.png" alt="User Login Page" width="600" />
 
-        <h4>User logout</h4>
-        <img src="./public/logout.png" alt="User Profile Page" width="600" />
+        <h4>User Logout</h4>
+        <img src="./public/logout.png" alt="User Logout Page" width="600" />
 
-        <h4>User details using id</h4>
-        <img src="./public/getUser.png" alt="User Update Form" width="600" />
+        <h4>User Details Using ID</h4>
+        <img src="./public/getUser.png" alt="Get User Details Page" width="600" />
 
-        <h4>Update user</h4>
-        <img src="./public/userUpdate.png" alt="Error Page" width="600" />
+        <h4>Update User</h4>
+        <img src="./public/userUpdate.png" alt="Update User Page" width="600" />
     </div>
 </body>
 </html>
