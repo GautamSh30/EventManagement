@@ -1,15 +1,20 @@
 
 <h1 align="center">Event Management</h1>
-<h2>How to Run Locally</h2>
+
+### Run this app locally
+
 ```shell
 npm install
+```
+```shell
 npx nodemon
 ```
 
-<h1>User Management APIs</h1>
+
+### User Management APIs
 <p>Used JWT for authentication and Redis for logout functionality.</p>
 
-<h2>Screenshots</h2>
+### Screenshots
 <div>
 <h4>User Register</h4>
 <img src="./public/register.png" alt="User Registration Page" width="600" />
